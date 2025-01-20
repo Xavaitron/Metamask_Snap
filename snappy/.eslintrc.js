@@ -3,6 +3,8 @@ module.exports = {
 
   parserOptions: {
     sourceType: 'module',
+    project: 'tsconfig.json',
+    tsconfigRootDir: './tsconfig.json',
   },
 
   extends: ['@metamask/eslint-config'],
